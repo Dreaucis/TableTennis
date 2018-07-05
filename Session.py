@@ -12,7 +12,7 @@ class Session:
         """
         self.db = sqlite3.connect('table_tennis.db')
 
-    def geIdsAndNames(self):
+    def getIdsAndNames(self):
         """
         Gets the id and name of all players in the players table.
         :return: returns a list of tuples of names (string) and id (int)
